@@ -6,7 +6,7 @@ require_once('rabbitMQLib.inc');
 require_once('login.php.inc');
 
 function sqlRequest($query){
-$server = "192.168.192.11";
+$server = "10.0.2.15";
 $uname = "rabbitMQ";
 $pass = "it490";
 $DB = "StockDB";
